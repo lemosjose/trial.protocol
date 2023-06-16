@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Reader :: trial.protocol</title>
+    <meta name="generator" content="Antora 3.1.4">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+    <script>var uiRootPath = '../../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="../../..">trial.protocol</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://leminhos.gitlab.io/doc.trial.protocol/trial.protocol/protocol/home/introduction.html">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="https://www.boost.org/doc/libs/1_66_0/libs/libraries.htm">Libraries</a>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="https://www.boost.org/users/people.html">People</a>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="https://github.com/breese/trial.protocol">Download</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="trial.protocol" data-version="protocol">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">trial.protocol</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Core</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../core/adapter.html">Adapter</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../core/serialization.html">Serialization</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">JSON</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="json.html">JSON</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="tutorial.html">Tutorials</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Guide</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="guide.html">User Guide</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Incremental Processing</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="token.html">Token</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="error.html">Error</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="4">
+    <a class="nav-link" href="reader.html">Reader</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="writer.html">Writer</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Serialization</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="iarchive.html">Input Archive</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="oarchive.html">Output Archive</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="design.html">Design Rationale</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Dynamic Variable</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../dynamic/dynamic.html">Trial.Dynamic</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../dynamic/tutorial.html">Tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">User Guide</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../dynamic/type.html">dynamic:type.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../dynamic/function.html">Functions</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../dynamic/algorithm.html">Algorithms</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../dynamic/converter.html">Converters</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../dynamic/concept.html">Concepts</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../dynamic/rationale.html">Design Rationale</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../dynamic/acknowledgement.html">Acknowledgement</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">trial.protocol</span>
+    <span class="version">protocol</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../index.html">trial.protocol</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">protocol</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../home/introduction.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../index.html">trial.protocol</a></li>
+    <li>JSON</li>
+    <li>Guide</li>
+    <li>Incremental Processing</li>
+    <li><a href="reader.html">Reader</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="https://gitlab.com/Leminhos/breese-asciidoc-conversion/edit/antora/doc/modules/json/pages/reader.adoc">Edit this Page</a></div>
+  </div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Reader</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Reader is an incremental parser (also called a pull parser) that transforms the
+JSON input into a sequence of C++ tokens.
+This transformation is done piecemeal, which means that the reader will stay at
+the first token until explicitly instructed to parse the next token.</p>
+</div>
+<div class="paragraph">
+<p>Based on the <a href="http://en.wikipedia.org/wiki/Iterator_pattern">Iterator design pattern</a>, <code>reader</code> parses just enough of the input to identify a single token.
+The <code>reader</code> provides various accessors that can be used to examine or convert
+the current <a href="https://leminhos.gitlab.io/doc.trial.protocol/trial.protocol/protocol/json/token.html">token</a>.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Reader Accessors</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Reader member function</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>token::code::value code()</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Returns the current token.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>token::symbol::value symbol()</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Returns the symbol of the current token.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>token::category::value category()</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Returns the category of the current token.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>size_type level()</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Returns the current level of nested containers. The levels starts with zero for the outmost level.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>error_code error()</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Returns the current error code.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>const view_type&amp; literal()</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Returns a view of the raw input of the current value.]]</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>T value&lt;T&gt;()</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Returns the current value. The raw input is converted into the requested value type.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>No data is converted until explicitly requested with <code>reader::value&lt;T&gt;()</code>.
+Notice that the return type for <code>reader::value&lt;T&gt;()</code> must be specified as a
+template parameter.
+The return type can be a boolean, a number, or a string as described below.
+The requested type must match the current token as returned by
+<code>reader::type()</code>; otherwise a run-time error will be raised.
+NOTE:</p>
+</div>
+<div class="exampleblock">
+<div class="content">
+<div class="paragraph">
+<p>Requesting the value of an incompatible type will result in a run-time
+error. For example, attempting to read a string as an integer:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">assert(reader.symbol() == json::symbol::string);
+int number = reader.value&lt;int&gt;(); // Throws exception</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Requesting an unsupported type will result in a compile-time error.
+For example, attempting to read a user-defined struct:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">struct dummy {};
+dummy d = reader.value&lt;dummy&gt;(); // Causes compilation error</code></pre>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>The unconverted textual data of the current token can be obtained with
+<code>reader::literal()</code>.
+This can be useful when displaying errors.
+The result of <code>reader::literal()</code> is different from <code>reader::value&lt;std::string&gt;()</code>.</p>
+</div>
+<div class="paragraph">
+<p>When you are done with the current token, the next token is found with
+<code>reader::next()</code>.
+This function returns a bool, which is true unless either an error or the end of
+the input was encountered.
+Whitespaces and separators are skipped.</p>
+</div>
+<div class="paragraph">
+<p>Errors in the input are identified with an error token, and the current error
+can be obtained with <code>reader::error()</code>.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_boolean"><a class="anchor" href="#_boolean"></a>Boolean</h3>
+<div class="paragraph">
+<p>Boolean values are indicated by the <code>json::symbol::boolean</code> token. The value is
+requested by <code>reader::value&lt;bool&gt;()</code>.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">std::string input = "true";
+json::reader reader(input);
+
+assert(reader.symbol() == json::symbol::boolean);
+assert(reader.literal() == "true");
+assert(reader.value&lt;bool&gt;());</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_number"><a class="anchor" href="#_number"></a>Number</h3>
+<div class="paragraph">
+<p>While JSON does not distinguish between integer and floating-point numbers, C++
+does make this distinction and therefore Trial.Protocol does too.
+However, integers can be read as floating-point numbers, and floating-point
+numbers can be read as integers.
+NOTE: Reading a floating-point number as an integer will round the number, so
+it may result in loss of information.]</p>
+</div>
+<div class="paragraph">
+<p>Numbers are identified as integers if the consists of digits only.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">std::string input = "42";
+json::reader reader(input);
+
+assert(reader.symbol() == json::symbol::integer);
+assert(reader.literal() == "42");
+assert(reader.value&lt;int&gt;() == 42);</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Numbers are detected as floating-point if they contain a decimal point or an
+exponent.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">std::string input = "3.1415";
+json::reader reader(input);
+
+assert(reader.symbol() == json::symbol::number);
+assert(reader.literal() == "3.1415");
+assert(reader.value&lt;double&gt;() == 3.1415);</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Integers can be read as floating-point numbers as well.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">std::string input = "42";
+json::reader reader(input);
+
+assert(reader.symbol() == json::symbol::integer);
+assert(reader.value&lt;double&gt;() == 42.0);</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Floating-point numbers can also be read as integers. The number will be rounded
+to the nearest integer.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">std::string input = "3.1415";
+json::reader reader(input);
+
+assert(reader.symbol() == json::symbol::number);
+assert(reader.value&lt;int&gt;() == 3);</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Any kind of additional constraints have to be enforced by the application layer.
+For instance, if we have a protocol with a size field, then logically this field
+cannot be negative or a fraction, even if JSON numbers allow this.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_string"><a class="anchor" href="#_string"></a>String</h3>
+<div class="paragraph">
+<p>Strings are identified with the <code>json::symbol::string</code> token, and is converted
+into a UTF-8 encoded string with <code>reader::value&lt;std::string&gt;()</code>.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">std::string input = "\"alpha\\n\"";
+json::reader reader(input);
+
+assert(reader.symbol() == json::symbol::string);
+assert(reader.literal() == "\"alpha\\n\"");
+assert(reader.value&lt;std::string&gt;() == "alpha\n");</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_null"><a class="anchor" href="#_null"></a>Null</h3>
+<div class="paragraph">
+<p>Null indicates the absence of a value, although it is encoded explicitly in the
+JSON format as the <code>null</code> literal string.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">std::string input = "null";
+json::reader reader(input);
+
+assert(reader.symbol() == json::symbol::null);</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_array"><a class="anchor" href="#_array"></a>Array</h3>
+<div class="paragraph">
+<p>Arrays are delimited by a begin-token and an end-token. Array members are
+comma separated. Arrays can contain any JSON type, including a nested array
+or a nested associative array.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">std::string input = "[42]";
+json::reader reader(input);
+
+assert(reader.symbol() == json::symbol::begin_array);
+
+reader.next();
+
+assert(reader.symbol() == json::symbol::integer);
+assert(reader.value&lt;int&gt;() == 42);
+
+reader.next();
+
+assert(reader.symbol() == json::symbol::end_array);</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_associative_array"><a class="anchor" href="#_associative_array"></a>Associative array</h3>
+<div class="paragraph">
+<p>An associative array is called a JSON object, which as a first approximation
+can be thought of as a <code>std::map</code> in C++.</p>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<script id="site-script" src="../../../_/js/site.js" data-ui-root-path="../../../_"></script>
+<script async src="../../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>

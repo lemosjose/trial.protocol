@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Concepts :: trial.protocol</title>
+    <meta name="generator" content="Antora 3.1.4">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+    <script>var uiRootPath = '../../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="../../..">trial.protocol</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://leminhos.gitlab.io/doc.trial.protocol/trial.protocol/protocol/home/introduction.html">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="https://www.boost.org/doc/libs/1_66_0/libs/libraries.htm">Libraries</a>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="https://www.boost.org/users/people.html">People</a>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="https://github.com/breese/trial.protocol">Download</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="trial.protocol" data-version="protocol">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">trial.protocol</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Core</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../core/adapter.html">Adapter</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../core/serialization.html">Serialization</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">JSON</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../json/json.html">JSON</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../json/tutorial.html">Tutorials</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Guide</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../json/guide.html">User Guide</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Incremental Processing</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../json/token.html">Token</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../json/error.html">Error</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../json/reader.html">Reader</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../json/writer.html">Writer</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Serialization</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../json/iarchive.html">Input Archive</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../json/oarchive.html">Output Archive</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../json/design.html">Design Rationale</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Dynamic Variable</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="dynamic.html">Trial.Dynamic</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="tutorial.html">Tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">User Guide</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="type.html">dynamic:type.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="function.html">Functions</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="algorithm.html">Algorithms</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="converter.html">Converters</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="3">
+    <a class="nav-link" href="concept.html">Concepts</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="rationale.html">Design Rationale</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="acknowledgement.html">Acknowledgement</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">trial.protocol</span>
+    <span class="version">protocol</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../index.html">trial.protocol</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">protocol</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../home/introduction.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../index.html">trial.protocol</a></li>
+    <li>Dynamic Variable</li>
+    <li>User Guide</li>
+    <li><a href="concept.html">Concepts</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="https://gitlab.com/Leminhos/breese-asciidoc-conversion/edit/antora/doc/modules/dynamic/pages/concept.adoc">Edit this Page</a></div>
+  </div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Concepts</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Work-in-progress.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_nestedcontainer"><a class="anchor" href="#_nestedcontainer"></a>NestedContainer</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>A <strong>NestedContainer</strong> is a <a href="http://en.cppreference.com/w/cpp/concept/Container">Container</a> that can store sequences of elements and ordered sequences.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Types</caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Name</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Notes</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>array_type</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">SequenceContainer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>map_type</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">AssociativeContainer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>pair_type</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>A NestedContainer must keep track of whether the stored type is <code>value_type</code>, <code>array_type</code>, or <code>map_type</code>. The semantics of insertion and erasure depends on the stored type.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Singular Semantics</caption>
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Expression</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Return type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Singular semantics</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Conditions</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.clear()</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>void</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Assigns value-initialized <code>T</code> to <code>a</code>.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Effects:</em>
+<code>*a == T{}</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.erase(p)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>iterator</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">No effect.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Returns:</em>
+Iterator <code>p</code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.erase(i, j)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>iterator</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">No effect.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Returns:</em></p>
+<p class="tableblock">Iterator <code>i</code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.insert(t)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>iterator</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Fails.</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.insert(i, j)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>void</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Fails.</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.insert(p, t)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>iterator</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Fails.</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.insert(p, i, j)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>void</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Fails.</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Sequence Semantics</caption>
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Expression</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Return type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sequence semantics</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Conditions</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.clear()</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>void</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Removes all nested elements.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Effects:</em></p>
+<p class="tableblock"><code>a.empty() == true</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.erase(p)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>iterator</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Removes a given element.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Requires:</em></p>
+<p class="tableblock"><code>T</code> shall be <code>MoveAssignable</code>.</p>
+<p class="tableblock"><em>Effects:</em></p>
+<p class="tableblock">Erases the element pointed to by <code>p</code>.</p>
+<p class="tableblock"><em>Returns:</em></p>
+<p class="tableblock">Iterator pointing to the element immediately following <code>p</code> prior to the element being erased, or <code>a.end()</code> if no such element exists.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.erase(i, j)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>iterator</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Removes all elements in range.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Requires:</em></p>
+<p class="tableblock"><code>T</code> shall be <code>MoveAssignable</code>.</p>
+<p class="tableblock"><em>Effects:</em></p>
+<p class="tableblock">Erases the elements in the range <em>[<code>i</code>, <code>j`</em>).</p>
+<p class="tableblock"><em>Returns:</em></p>
+<p class="tableblock">Iterator pointing to the element pointed to by `j</code> prior to the element being erased, or <code>a.end()</code> if no such element exists.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.insert(t)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>iterator</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Inserts element at end.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Requires:</em></p>
+<p class="tableblock"><code>T</code> shall be <code>CopyInsertable</code> into <code>a</code>.</p>
+<p class="tableblock"><em>Effects:</em></p>
+<p class="tableblock"><code>a.insert(a.end(), t)</code></p>
+<p class="tableblock"><em>Returns:</em></p>
+<p class="tableblock">Iterator <code>a.end()</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.insert(i, j)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>void</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Inserts all elements in range at end.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Requires:</em></p>
+<p class="tableblock"><code>T</code> shall be <code>EmplaceConstructible</code> into <code>a</code> from <code>*i</code>.</p>
+<p class="tableblock"><code>i</code> and <code>j</code> are not iterators into <code>a</code>.</p>
+<p class="tableblock"><em>Effects:</em></p>
+<p class="tableblock"><code>a.insert(a.end(), i, j)</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.insert(p, t)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>iterator</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Inserts element before position.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Requires:</em></p>
+<p class="tableblock"><code>T</code> shall be <code>CopyInsertable</code> into <code>a</code>.</p>
+<p class="tableblock"><code>p</code> is iterator into <code>a</code>.</p>
+<p class="tableblock"><em>Effects:</em></p>
+<p class="tableblock">Inserts a copy of <code>t</code> before position <code>p</code>.</p>
+<p class="tableblock"><em>Returns:</em></p>
+<p class="tableblock">Iterator <code>p</code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.insert(p, i, j)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>void</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Inserts all elements in range before position.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Requires:</em></p>
+<p class="tableblock"><code>T</code> shall be <code>EmplaceConstructible</code> into <code>a</code> from <code>*i</code>.</p>
+<p class="tableblock"><code>p</code> is iterator into <code>a</code>.</p>
+<p class="tableblock"><code>i</code> and <code>j</code> are not iterators into <code>a</code>.</p>
+<p class="tableblock"><em>Effects:</em></p>
+<p class="tableblock">Inserts a copy of each element in the range <em>[<code>i</code>, <code>j`</em>) into `a</code> before position <code>p</code>.</p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Associative Semantics</caption>
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Expression</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Return type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Associative semantics</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Conditions</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.clear()</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>void</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Removes all nested elements.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Effects:</em></p>
+<p class="tableblock"><code>a.empty() == true</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.erase(p)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>iterator</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Removes a given element.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Effects:</em></p>
+<p class="tableblock">Erases the element pointed to by <code>p</code>.</p>
+<p class="tableblock"><em>Returns:</em></p>
+<p class="tableblock">Iterator pointing to the element immediately following <code>p</code> prior to the element being erased, or <code>a.end()</code> if no such element exists.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.erase(i, j)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>iterator</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Removes all elements in range.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Effects:</em></p>
+<p class="tableblock">Erases the elements in the range <em>[<code>i</code>, <code>j`</em>).</p>
+<p class="tableblock"><em>Returns:</em></p>
+<p class="tableblock">Iterator pointing to the element pointed to by `j</code> prior to the element being erased, or <code>a.end()</code> if no such element exists.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.insert(t)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>iterator</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Inserts <code>t</code>.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Requires:</em></p>
+<p class="tableblock"><code>T</code> is a <code>pair_type</code>.</p>
+<p class="tableblock"><em>Effects:</em></p>
+<p class="tableblock"><code>`
+p = std::find(a.begin(), a.end(), get&lt;0&gt;(t))
+a.insert(p, t)
+</code>`</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.insert(i, j)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>void</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Inserts all elements in range <em>[<code>i</code>, `j`</em>)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Requires:</em></p>
+<p class="tableblock">Each elements in range <em>[<code>i</code>, <code>j`</em>) is a `pair_type</code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.insert(p, t)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>iterator</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Inserts <code>t</code> with position <code>p</code> as hint.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Requires:</em></p>
+<p class="tableblock"><code>T</code> is a <code>pair_type</code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.insert(p, i, j)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>void</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Inserts all elements in range <em>[<code>i</code>, <code>j`</em>) with position `p</code> as hint.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Requires:</em></p>
+<p class="tableblock">Each elements in range <em>[<code>i</code>, <code>j`</em>) is a `pair_type</code>.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_dynamiccontainer"><a class="anchor" href="#_dynamiccontainer"></a>DynamicContainer</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>A <strong>DynamicContainer</strong> is a [link dynamic-nested NestedContainer] that can also store heterogenous elements, one of which is a nullable element indicating the absence of a value.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Nullable Semantics</caption>
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Expression</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Return type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Nullable semantics</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Conditions</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.clear()</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>void</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">No effect.</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.erase(p)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>iterator</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">No effect.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Returns:</em></p>
+<p class="tableblock">Iterator <code>p</code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.erase(i, j)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>iterator</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">No effect.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Returns:</em></p>
+<p class="tableblock">Iterator <code>i</code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.insert(t)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>iterator</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Changes stored type to SequenceContainer and inserts element.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Requires:</em></p>
+<p class="tableblock"><code>T</code> shall be <code>CopyInsertable</code> into <code>a</code>.</p>
+<p class="tableblock"><em>Effects:</em></p>
+<p class="tableblock"><code>a</code> becomes a sequenced array containing a copy of <code>t</code>.</p>
+<p class="tableblock"><em>Returns:</em></p>
+<p class="tableblock">Iterator <code>a.end()</code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.insert(i, j)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>void</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Changes stored type to SequenceContainer and inserts all elements in range.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Requires:</em></p>
+<p class="tableblock"><code>T</code> shall be <code>EmplaceConstructible</code> into <code>a</code>.</p>
+<p class="tableblock"><em>Effects:</em></p>
+<p class="tableblock"><code>a</code> becomes a sequenced array containing a copy of each element in the range <em>[<code>i</code>, `j`</em>).</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.insert(p, t)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>iterator</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Fails.</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>a.insert(p, i, j)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>void</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Fails.</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<script id="site-script" src="../../../_/js/site.js" data-ui-root-path="../../../_"></script>
+<script async src="../../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>

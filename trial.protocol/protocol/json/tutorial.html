@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Tutorials :: trial.protocol</title>
+    <meta name="generator" content="Antora 3.1.4">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+    <script>var uiRootPath = '../../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="../../..">trial.protocol</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://leminhos.gitlab.io/doc.trial.protocol/trial.protocol/protocol/home/introduction.html">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="https://www.boost.org/doc/libs/1_66_0/libs/libraries.htm">Libraries</a>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="https://www.boost.org/users/people.html">People</a>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="https://github.com/breese/trial.protocol">Download</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="trial.protocol" data-version="protocol">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">trial.protocol</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Core</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../core/adapter.html">Adapter</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../core/serialization.html">Serialization</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">JSON</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="json.html">JSON</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="2">
+    <a class="nav-link" href="tutorial.html">Tutorials</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Guide</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="guide.html">User Guide</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Incremental Processing</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="token.html">Token</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="error.html">Error</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="reader.html">Reader</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="writer.html">Writer</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Serialization</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="iarchive.html">Input Archive</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="oarchive.html">Output Archive</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="design.html">Design Rationale</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Dynamic Variable</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../dynamic/dynamic.html">Trial.Dynamic</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../dynamic/tutorial.html">Tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">User Guide</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../dynamic/type.html">dynamic:type.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../dynamic/function.html">Functions</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../dynamic/algorithm.html">Algorithms</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../dynamic/converter.html">Converters</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../dynamic/concept.html">Concepts</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../dynamic/rationale.html">Design Rationale</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../dynamic/acknowledgement.html">Acknowledgement</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">trial.protocol</span>
+    <span class="version">protocol</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../index.html">trial.protocol</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">protocol</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../home/introduction.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../index.html">trial.protocol</a></li>
+    <li>JSON</li>
+    <li><a href="tutorial.html">Tutorials</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="https://gitlab.com/Leminhos/breese-asciidoc-conversion/edit/antora/doc/modules/json/pages/tutorial.adoc">Edit this Page</a></div>
+  </div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Tutorials</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>The tutorials assume that the following alias has been declared</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">namespace json = trial::protocol::json;</code></pre>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_serialization"><a class="anchor" href="#_serialization"></a>Serialization</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This tutorial shows how the <a href="https://leminhos.gitlab.io/doc.trial.protocol/trial.protocol/protocol/json/oarchive.html">JSON output archive</a> and the <a href="https://leminhos.gitlab.io/doc.trial.protocol/trial.protocol/protocol/json/iarchive.html">JSON input archive</a> can be used to serialize C data into JSON and deserialize JSON into C data in just a few lines of code.</p>
+</div>
+<div class="sect2">
+<h3 id="_fundamental_types"><a class="anchor" href="#_fundamental_types"></a>Fundamental types</h3>
+<div class="paragraph">
+<p>We start by serializing <a href="http://en.cppreference.com/w/cpp/language/types">fundamental types</a>, because there is built-in serialization support for most
+of them.</p>
+</div>
+<div class="paragraph">
+<p>The JSON output archive knows how to generate valid JSON, but it needs a buffer
+to store the output in. This buffer is passed to the constructor of the output
+archive. We can choose between several <a href="https://leminhos.gitlab.io/doc.trial.protocol/trial.protocol/protocol/core/adapter.html">buffer types</a>
+In the following we will only demonstrate how to serialize to a <code>std::string</code>.
+We first need to include a wrapper for <code>std::string</code> that is used by the output
+archive.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">#include &lt;trial/protocol/buffer/string.hpp&gt; // Use std::string as output buffer</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>We also need to include <a href="https://leminhos.gitlab.io/doc.trial.protocol/trial.protocol/protocol/json/oarchive.html"><code>json::oarchive</code></a> together
+with other headers to glue Trial.protocol into Boost.Serialization.
+This is most easily done like this:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">#include &lt;trial/protocol/json/serialization.hpp&gt;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Serializing is as simple as creating a <code>std::string</code> and a <code>json::oarchive</code>,
+and then stream our data to the archive.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">// Create data
+bool input = true;
+
+// Serialization
+std::string buffer;
+json::oarchive oarchive(buffer);
+oarchive &lt;&lt; input;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The <code>buffer</code> string now contains the formatted JSON output.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">assert(buffer == "true");</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>We can deserialize the buffer again with the <a href="https://leminhos.gitlab.io/doc.trial.protocol/trial.protocol/protocol/json/iarchive.html">JSON input archive</a>.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">bool output = false;
+json::iarchive iarchive(buffer);
+iarchive &gt;&gt; output;
+
+assert(output == true);</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_containers"><a class="anchor" href="#_containers"></a>Containers</h3>
+<div class="paragraph">
+<p>There is also built-in support for serialization of certain standard C++ containers,
+such as <code>std::vector</code>, <code>std::set</code>, and <code>std::map</code>.</p>
+</div>
+<div class="paragraph">
+<p>The following example shows how to serialize an <code>std::map</code>.
+The serialization code follows the same pattern as used in the previous example.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">#include &lt;trial/protocol/buffer/string.hpp&gt;
+#include &lt;trial/protocol/json/serialization.hpp&gt;
+
+// Build data
+std::map&lt;std::string, std::string&gt; input;
+input["alpha"] = "hydrogen";
+input["bravo"] = "helium";
+
+// Serialization
+std::string buffer;
+json::oarchive oarchive(buffer);
+oarchive &lt;&lt; input;
+
+assert(buffer == "{\"alpha\":\"hydrogen",\"bravo\":\"helium\"}");</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Deserialization is done by adding:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">std::map&lt;std::string, std::string&gt; output;
+json::iarchive iarchive(buffer);
+iarchive &gt;&gt; output;
+
+assert(output.size() == 2);
+assert(output["alpha"] == "hydrogen");
+assert(output["bravo"] == "helium");</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_incremental_processing"><a class="anchor" href="#_incremental_processing"></a>Incremental Processing</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Serialization and document processing is build on top of incremental processing.
+Incremental processing can also be used directly for more efficient processing
+such as searching for keys in a JSON file without having to convert strings or
+from JSON into C++ types.</p>
+</div>
+<div class="paragraph">
+<p>We are going to start with incremental generation to create JSON formatted
+output using the <a href="https://leminhos.gitlab.io/doc.trial.protocol/trial.protocol/protocol/json/writer.html"><code>json::writer</code></a>.
+Afterwards we will use the <a href="https://leminhos.gitlab.io/doc.trial.protocol/trial.protocol/protocol/json/reader.html"><code>json::reader</code></a> to parse
+JSON formatted input.</p>
+</div>
+<div class="sect2">
+<h3 id="_generating_fundamental_types"><a class="anchor" href="#_generating_fundamental_types"></a>Generating fundamental types</h3>
+<div class="paragraph">
+<p>The <a href="https://leminhos.gitlab.io/doc.trial.protocol/trial.protocol/protocol/json/writer.html"><code>json::writer</code></a> is used to incrementally generate
+a JSON formatted buffer. We can either write a fundamental type, or use tags to
+write special tokens.</p>
+</div>
+<div class="paragraph">
+<p>We first need to include a couple of headers.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">#include &lt;trial/protocol/buffer/string.hpp&gt;
+#include &lt;trial/protocol/json/writer.hpp&gt;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Let us generate a boolean value:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">std::string output;
+json::writer writer(output);
+
+writer.write(true);
+
+assert(output == "true");</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>We can also generate a <code>null</code> value, which means that the current entry does not
+have a value. Think of it as an uninitialized optional value. We pass a tag as
+template parameter to indicate that <code>null</code> should be inserted.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">std::string output;
+json::writer writer(output);
+
+writer.write&lt;json::token::null&gt;();
+
+assert(output == "null");</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_generating_array"><a class="anchor" href="#_generating_array"></a>Generating array</h3>
+<div class="paragraph">
+<p>Containers have to start with with a begin bracket and terminate with an end bracket.
+These brackets must be written explicitly with a tag.
+The separators between entries are automatically inserted.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">#include &lt;trial/protocol/buffer/string.hpp&gt;
+#include &lt;trial/protocol/json/writer.hpp&gt;
+
+std::string output;
+json::writer writer(output);
+
+writer.write&lt;json::token::begin_array&gt;();
+assert(output == "[");
+
+writer.write(true);
+assert(output == "[true");
+
+writer.write(2);
+assert(output == "[true,2");
+
+writer.write(3.0);
+assert(output == "[true,2,3.0");
+
+writer.write("alpha");
+assert(output == "[true,2,3.0,\"alpha\"");
+
+writer.write&lt;json::token::end_array&gt;();
+assert(output == "[true,2,3.0.\"alpha\"]");</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_counting_keys"><a class="anchor" href="#_counting_keys"></a>Counting keys</h3>
+<div class="paragraph">
+<p>We now turn our attention to incremental parsing. <a href="https://leminhos.gitlab.io/doc.trial.protocol/trial.protocol/protocol/json/reader.html"><code>json::reader</code></a> is a pull parser that lazily parses a single token in the input.
+The <code>json::reader::next()</code> function is used to advance the cursor to the next
+token.</p>
+</div>
+<div class="paragraph">
+<p>Suppose we have string called <code>haystack</code> containing a JSON object, and that we
+want to count all key-value pairs with a given key called <code>needle</code>.</p>
+</div>
+<div class="paragraph">
+<p>For the sake of simplicity we are going to assume that there are no nested
+containers.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">#include &lt;trial/protocol/json/reader.hpp&gt;
+
+std::size_t prefix_count(const std::string&amp; haystack,
+                         const std::string&amp; needle)
+{
+  std::size_t count = 0;
+  json::reader reader(haystack);
+  do
+  {
+    auto key = reader.value&lt;std::string&gt;();
+    if (key == needle)
+    {
+      ++count;
+    }
+    reader.next(); // Skip key
+  } while (reader.next()); // Skip value
+  return count;
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>In the above example we convert the current <code>key</code> from JSON to <code>std::string</code>
+before doing the comparison.</p>
+</div>
+<div class="paragraph">
+<p>We can optimize this by converting the <code>needle</code> into a JSON string and then
+comparing it with the unconverted JSON string. We will use the <code>json::writer</code>
+for that.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">#include &lt;trial/protocol/buffer/string.hpp&gt;
+#include &lt;trial/protocol/json/reader.hpp&gt;
+#include &lt;trial/protocol/json/writer.hpp&gt;
+
+std::size_t prefix_count_fast(const std::string&amp; haystack,
+                              const std::string&amp; needle)
+{
+  std::string literal;
+  json::writer writer(literal);
+  writer.value(needle);
+
+  std::size_t count = 0;
+  json::reader reader(haystack);
+  do
+  {
+    const auto&amp; key = reader.literal();
+    if (key == literal)
+    {
+      ++count;
+    }
+    reader.next(); // Skip key
+  } while (reader.next()) // Skip value
+  return count;
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_push_parser"><a class="anchor" href="#_push_parser"></a>Push Parser</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In this tutorial we are going to use the incremental <a href="https://leminhos.gitlab.io/doc.trial.protocol/trial.protocol/protocol/json/reader.html"><code>json::reader</code></a> parser to build another kind of incremental parser, so we are going to introduce a distinction between incremental <em>pull</em> parsers and incremental <em>push</em> parsers. The main difference between them is the direction of control. With pull parsers, like <a href="https://leminhos.gitlab.io/doc.trial.protocol/trial.protocol/protocol/json/reader.html"><code>json::reader</code></a>, the user extracts or pulls one token after another, whereas with push parser the tokens are automatically pushed to the user via callback functions.</p>
+</div>
+<div class="paragraph">
+<p>We will use <a href="https://leminhos.gitlab.io/doc.trial.protocol/trial.protocol/protocol/json/reader.html"><code>json::reader</code></a> to build the push parser,
+because pull parsers are well-suited to create other kinds of parser interfaces.
+The serialization output archives that we saw in a previous tutorial is another
+example of a higher-level parser build on top of pull parsers.
+This tutorial demonstrates how <code>json::reader</code> can be used to create a push parser.</p>
+</div>
+<div class="paragraph">
+<p>A push parser iterates over the JSON input and invokes callback functions for
+each parsed data item. Each data type has a distinct callback function. The
+user provides the implemention of these callback functions. The design is a
+variation of the <a href="http://en.wikipedia.org/wiki/Builder_pattern">Builder pattern</a>,
+and this is how XML <a href="http://en.wikipedia.org/wiki/Simple_API_for_XML">SAX</a> parsers
+work.</p>
+</div>
+<div class="sect2">
+<h3 id="_definitions"><a class="anchor" href="#_definitions"></a>Definitions</h3>
+<div class="paragraph">
+<p>First we define the <code>push_parser</code> class which takes the callback functions as
+a template parameter..<sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">#include &lt;trial/protocol/json/reader.hpp&gt;
+
+template &lt;typename Callbacks&gt;
+class push_parser
+{
+public:
+    push_parser(const json::reader&amp; reader) : reader(reader) {}
+
+    void parse();
+
+private:
+    Callbacks callbacks;
+    json::reader reader;
+};</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The <code>Callbacks</code> template parameter must be a class that implements a member
+function for each callback function.
+The <code>Callbacks</code> class looks something like this:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">#include &lt;cstdint&gt;
+#include &lt;string&gt;
+
+class my_callbacks
+{
+public:
+    void on_null();
+    void on_boolean(bool);
+    void on_integer(std::intmax_t);
+    void on_number(double);
+    void on_string(const std::string&amp;);
+    void on_begin_array();
+    void on_end_array();
+    void on_begin_object();
+    void on_end_object();
+};</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>We are not going to implement <code>my_callbacks</code> here, although a simple
+implementation could be to simply print the type and value in each callback
+function.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_execution"><a class="anchor" href="#_execution"></a>Execution</h3>
+<div class="paragraph">
+<p>After these preliminary definitions, we have now arrived at the crux of the
+problem: how to implement the <code>push_parser::parse()</code> function.
+Fortunately that is very simple using a pull parser:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Iterate over the JSON input using <code>json::reader::next()</code>.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Identify the current token with <code>json::reader::symbol()</code>.</p>
+</li>
+<li>
+<p>Invoke the appropriate callback function. The current value for data tokens is obtained with <code>json::reader::value&lt;T&gt;()</code>.</p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Here is the entire implementation in its full glory:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">void push_parser::parse()
+{
+    do
+    {
+        switch (reader.symbol())
+        {
+        case json::symbol::null:
+            callbacks.on_null();
+            break;
+
+        case json::symbol::boolean:
+            callbacks.on_boolean(reader.value&lt;bool&gt;());
+            break;
+
+        case json::symbol::integer:
+            callbacks.on_integer(reader.value&lt;std::intmax_t&gt;());
+            break;
+
+        case json::symbol::number:
+            callbacks.on_number(reader.value&lt;double&gt;());
+            break;
+
+        case json::symbol::string:
+            callbacks.on_string(reader.value&lt;std::string&gt;());
+            break;
+
+        case json::symbol::begin_array:
+            callbacks.on_begin_array();
+            break;
+
+        case json::symbol::end_array:
+            callbacks.on_end_array();
+            break;
+
+        case json::symbol::begin_object:
+            callbacks.on_begin_object();
+            break;
+
+        case json::symbol::end_object:
+            callbacks.on_end_object();
+            break;
+
+        default:
+            break;
+        }
+
+    } while (reader.next());
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Finally, we use the above push parser as follows:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">json::reader reader("[null,true,42]"); // Re1place with actual JSON input
+push_parser&lt;my_callbacks&gt; parser(reader);
+parser.parse();</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footnotes">
+<hr>
+<div class="footnote" id="_footnotedef_1">
+<a href="#_footnoteref_1">1</a>. We could also have used a polymorphic interface for the callback functions.
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<script id="site-script" src="../../../_/js/site.js" data-ui-root-path="../../../_"></script>
+<script async src="../../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>

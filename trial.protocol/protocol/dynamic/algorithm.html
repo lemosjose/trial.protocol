@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Algorithms :: trial.protocol</title>
+    <meta name="generator" content="Antora 3.1.4">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+    <script>var uiRootPath = '../../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="../../..">trial.protocol</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://leminhos.gitlab.io/doc.trial.protocol/trial.protocol/protocol/home/introduction.html">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="https://www.boost.org/doc/libs/1_66_0/libs/libraries.htm">Libraries</a>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="https://www.boost.org/users/people.html">People</a>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="https://github.com/breese/trial.protocol">Download</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="trial.protocol" data-version="protocol">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">trial.protocol</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Core</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../core/adapter.html">Adapter</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../core/serialization.html">Serialization</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">JSON</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../json/json.html">JSON</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../json/tutorial.html">Tutorials</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Guide</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../json/guide.html">User Guide</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Incremental Processing</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../json/token.html">Token</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../json/error.html">Error</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../json/reader.html">Reader</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../json/writer.html">Writer</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Serialization</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../json/iarchive.html">Input Archive</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../json/oarchive.html">Output Archive</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../json/design.html">Design Rationale</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Dynamic Variable</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="dynamic.html">Trial.Dynamic</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="tutorial.html">Tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">User Guide</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="type.html">dynamic:type.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="function.html">Functions</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="3">
+    <a class="nav-link" href="algorithm.html">Algorithms</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="converter.html">Converters</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="concept.html">Concepts</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="rationale.html">Design Rationale</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="acknowledgement.html">Acknowledgement</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">trial.protocol</span>
+    <span class="version">protocol</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../index.html">trial.protocol</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">protocol</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../home/introduction.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../index.html">trial.protocol</a></li>
+    <li>Dynamic Variable</li>
+    <li>User Guide</li>
+    <li><a href="algorithm.html">Algorithms</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="https://gitlab.com/Leminhos/breese-asciidoc-conversion/edit/antora/doc/modules/dynamic/pages/algorithm.adoc">Edit this Page</a></div>
+  </div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Algorithms</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>The dynamic variable is accompanied by a number of algorithms, but also works with most standard C++ algorithms.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_count"><a class="anchor" href="#_count"></a>Count</h3>
+<div class="paragraph">
+<p>Counts the number of matching keys or values in a dynamic variable.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<code>#include &lt;trial/dynamic/algorithm/count.hpp&gt;</code>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>There are two count algorithms. One counts matching keys, and the other counts matching values. They are located
+in the <code>dynamic::key</code> and <code>dynamic::value</code> namespaces respectively.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Expression</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Return type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Semantics</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Conditions</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>key::count(v, t)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>size_type</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Counts elements with key <code>t</code> in dynamic variable.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Requires:</em></p>
+<p class="tableblock"><code>T</code> is a supported type.</p>
+<p class="tableblock"><em>Effects:</em></p>
+<p class="tableblock"><code>std::count(v.key_begin(), v.key_end(), t)</code></p>
+<p class="tableblock"><em>Returns:</em></p>
+<p class="tableblock">Number of elements in <code>v</code> matching <code>t</code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>value::count(v, t)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>size_type</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Counts elements with value <code>t</code> in dynamic variable.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Requires:</em></p>
+<p class="tableblock"><code>T</code> is a supported type.</p>
+<p class="tableblock"><em>Effects:</em></p>
+<p class="tableblock"><code>std::count(v.begin(), v.end(), t)</code></p>
+<p class="tableblock"><em>Returns:</em></p>
+<p class="tableblock">Number of elements in <code>v</code> matching <code>t</code>.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_find"><a class="anchor" href="#_find"></a>Find</h3>
+<div class="paragraph">
+<p>Finds an element by key or by value in a dynamic variable.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<code>#include &lt;trial/dynamic/algorithm/find.hpp&gt;</code>
+</td>
+</tr>
+</table>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Expression]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Return type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Semantics</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Conditions</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>key::find(v, t)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>key_iterator</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Finds element with key in dynamic variable.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Requires:</em></p>
+<p class="tableblock"><code>T</code> is a supported type.</p>
+<p class="tableblock"><em>Effects:</em></p>
+<p class="tableblock"><code>std::find(v.key_begin(), v.key_end(), t)</code></p>
+<p class="tableblock"><em>Returns:</em></p>
+<p class="tableblock">Iterator pointing to element in <code>v</code> matching <code>t</code>, or <code>v.key_end()</code> if not such element exits.]]</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>value::find(v, t)</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>iterator</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Finds element with value in dynamic variable.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Requires:</em></p>
+<p class="tableblock"><code>T</code> is a supported type.</p>
+<p class="tableblock"><em>Effects:</em></p>
+<p class="tableblock"><code>std::find(v.begin(), v.end(), t)</code></p>
+<p class="tableblock"><em>Returns:</em></p>
+<p class="tableblock">Iterator pointing to element in <code>v</code> matching <code>t</code>, or <code>v.end()</code> if not such element exits.]]</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_visit"><a class="anchor" href="#_visit"></a>Visit</h3>
+<div class="paragraph">
+<p>Invokes a function call operator on a visitor object with the stored value of the dynamic variable as the function parameter.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<code>#include &lt;trial/dynamic/algorithm/visit.hpp&gt;</code>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>In addition to various ways of doing type checking, we can also invoke a typed callback on a customized visitor object.
+The function call operator always takes a single input parameter whose type is one of the supported types.
+The normal C++ function overloading rules applies when selecting which function call operator to invoke.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">struct my_visitor
+{
+  template &lt;typename T&gt;
+  void operator()(T value)
+  {
+    std::cout &lt;&lt; value &lt;&lt; std::end;
+  }
+};
+
+int main()
+{
+  dynamic::variable data = { true, 2, 3.0, "alpha" };
+
+  my_visitor visitor;
+  dynamic::visit(vistor, data);
+  return 0;
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The function call operator may return a value. All function call operators must
+use the same return type, which is also the return type of the <code>dynamic::visit</code>
+algorithm.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">struct my_returning_visitor
+{
+  template &lt;typename T&gt;
+  dynamic::symbol::value operator()(T value)
+  {
+    dynamic::variable tmp(value);
+    return tmp.symbol();
+  }
+};
+
+int main()
+{
+  dynamic::variable data = { true, 2, 3.0, "alpha" };
+
+  my_returning_visitor visitor;
+  auto symbol = dynamic::visit(vistor, data);
+  assert(symbol == dynamic::symbol::array);
+  return 0;
+}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_include_algorithm"><a class="anchor" href="#_include_algorithm"></a>#include &lt;algorithm&gt;</h3>
+<div class="paragraph">
+<p>The dynamic variable works with standard C++ algorithms that require at most bi-directional iterators.</p>
+</div>
+<div class="paragraph">
+<p>Some algorithms assume that if they take two ranges, then the second range is at least as long as the first. <code>dynamic::nullable</code> is an empty container, so it cannot be used as the second range.</p>
+</div>
+<div class="paragraph">
+<p>The algorithms listed in the table below have been verified. Excluded are sorting algorithms and algorithms requiring special operators apart from <code>operator+</code> (e.g. <code>std::inner_product</code> without binary predicates.)</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Algorithm</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Caveat</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::accumulate</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::adjacent_find</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::all_of</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::any_of</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::binary_search</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::copy</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::copy_backward</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::count</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::count_if</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::equal</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Using <code>dynamic::nullable</code> as the first range causes true to be returned regardless of the second range. Using <code>dynamic::nullable</code> as the second range causes undefined behavior.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::equal_range</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::find</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Using <code>dynamic::nullable</code> as the range causes nothing to be found.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::find_if</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Using <code>dynamic::nullable</code> as the range causes nothing to be found.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::insert_iterator</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::iota</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Only arithmetic types can be inserted.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::is_partitioned</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::is_sorted</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::lexicographical_compare</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::lower_bound</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::max_element</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.]]</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::mismatch</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Using <code>dynamic::nullable</code> as the second range causes undefined behavior.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::move</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::move_backward</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::none_of</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::partial_sum</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::partition</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::partition_point</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::remove</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In associated arrays entries are removed by value but the key order is kept.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::replace</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cannot insert container as new value because iterators will be changed during replacement.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::reverse</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::rotate</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">No effect on singular values.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::search</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Using <code>dynamic::nullable</code> as the second range always returns the first entry.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::stable_partition</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::swap_ranges</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Using <code>dynamic::nullable</code> as the first range has no effect. Using <code>dynamic::nullable</code> as the second range causes undefined behavior.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::transform</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::unique</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>std::upper_bound</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">None.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<script id="site-script" src="../../../_/js/site.js" data-ui-root-path="../../../_"></script>
+<script async src="../../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>

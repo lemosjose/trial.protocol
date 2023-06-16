@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Design Rationale :: trial.protocol</title>
+    <meta name="generator" content="Antora 3.1.4">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+    <script>var uiRootPath = '../../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="../../..">trial.protocol</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://leminhos.gitlab.io/doc.trial.protocol/trial.protocol/protocol/home/introduction.html">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="https://www.boost.org/doc/libs/1_66_0/libs/libraries.htm">Libraries</a>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="https://www.boost.org/users/people.html">People</a>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="https://github.com/breese/trial.protocol">Download</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="trial.protocol" data-version="protocol">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">trial.protocol</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Core</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../core/adapter.html">Adapter</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../core/serialization.html">Serialization</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">JSON</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../json/json.html">JSON</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../json/tutorial.html">Tutorials</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Guide</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../json/guide.html">User Guide</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Incremental Processing</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../json/token.html">Token</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../json/error.html">Error</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../json/reader.html">Reader</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../json/writer.html">Writer</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Serialization</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../json/iarchive.html">Input Archive</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../json/oarchive.html">Output Archive</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../json/design.html">Design Rationale</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Dynamic Variable</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="dynamic.html">Trial.Dynamic</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="tutorial.html">Tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">User Guide</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="type.html">dynamic:type.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="function.html">Functions</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="algorithm.html">Algorithms</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="converter.html">Converters</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="concept.html">Concepts</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item is-current-page" data-depth="2">
+    <a class="nav-link" href="rationale.html">Design Rationale</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="acknowledgement.html">Acknowledgement</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">trial.protocol</span>
+    <span class="version">protocol</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../index.html">trial.protocol</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">protocol</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../home/introduction.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../index.html">trial.protocol</a></li>
+    <li>Dynamic Variable</li>
+    <li><a href="rationale.html">Design Rationale</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="https://gitlab.com/Leminhos/breese-asciidoc-conversion/edit/antora/doc/modules/dynamic/pages/rationale.adoc">Edit this Page</a></div>
+  </div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Design Rationale</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>This section describes the rationale behind the design of the dynamic variable.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_supported_types"><a class="anchor" href="#_supported_types"></a>Supported Types</h3>
+<div class="paragraph">
+<p>The dynamic variable only supports a pre-defined list of types. No custom types are allowed. This restriction is imposed to define various relationships between supported types such that the dynamic variable can meet the requirements for the Container concept.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tag type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>dynamic::nullable</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Indicates the absence of data. It serves a similar purpose as <a href="http://en.cppreference.com/w/cpp/utility/optional/nullopt_t"><code>std::nullopt_t</code></a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>dynamic::boolean</code>
+<code>dynamic::integer</code>
+<code>dynamic::number</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Indicates a single value of an <a href="http://en.cppreference.com/w/c/language/arithmetic_types">arithmetic type</a>. Arithmetic operations on dynamic variables will use the normal C++ arithmetic operations.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>dynamic::string</code>
+<code>dynamic::wstring</code>
+<code>dynamic::u16string</code>
+<code>dynamic::u32string</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Indicates a sequence of characters. Single characters<sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup> cannot be stored directly, but have to be added as strings.</p>
+<p class="tableblock">The string types are considered incompatible types, so no comparison or conversion between them are supported.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>dynamic::array</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Indicates a sequence of nested dynamic variables. Adheres to the <code>SequenceContainer</code> concept.
+<code>dynamic::map</code></p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Adheres to the <code>AssociativeContainer</code> concept with a <code>mapped_type</code>.</p>
+</div>
+<div class="paragraph">
+<p>A variable can only change its type via construction, assignment, or swapping. For instance, the <code>clear()</code> member function resets the content of a variable, but retains the type. An exemption is when the variable is nullable, in which case insertion can also change the type via arithmetic operations.</p>
+</div>
+<div class="paragraph">
+<p>As the type can change dynamically during program execution, operations between incompatible supported types results in run-time errors, rather than compile-time errors. Depending on the operation, either a <code>std::error_code</code> set to <code>dynamic::incompatible_types</code> is returned, or thrown as a <code>dynamic::error</code> exception containing this error code.</p>
+</div>
+<div class="paragraph">
+<p>Assigning an unsupported type to a variable results in a compile-time error.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_concepts"><a class="anchor" href="#_concepts"></a>Concepts</h3>
+<div class="paragraph">
+<p>The dynamic variable meets the requirements of the <a href="http://en.cppreference.com/w/cpp/concept/Container">Container</a>, <a href="http://en.cppreference.com/w/cpp/concept/ReversibleContainer">ReversibleContainer</a>, and <a href="concept.html#dynamic-container" class="xref page">DynamicContainer</a> concepts.</p>
+</div>
+<div class="paragraph">
+<p>Meeting the requirements of the Container concept means that the dynamic variable can be used together with C++ algorithms. In order to meet the Container concept, each supported type must be considered a container. Singular types like the fundamental data types and strings are considered containers with a single element, except nullable which has no elements. The singular types can be used both as a value and as a container. The container size of each supported type is listed in the table below.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tag type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Container size</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>dynamic::nullable</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>dynamic::boolean</code>
+<code>dynamic::integer</code>
+<code>dynamic::number</code>
+<code>dynamic::string</code>
+<code>dynamic::wstring</code>
+<code>dynamic::u16string</code>
+<code>dynamic::u32string</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>dynamic::array</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>dynamic::variable::array_type::size()</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>dynamic::map</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>dynamic::variable::map_type::size()</code></p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>The DynamicContainer concept has been constructed as a common set of insertion and erasure operations that maps to the <a href="http://en.cppreference.com/w/cpp/concept/SequenceContainer">SequenceContainer</a> and <a href="http://en.cppreference.com/w/cpp/concept/AssociativeContainer">AssociativeContainer</a> concepts.</p>
+</div>
+<div class="paragraph">
+<p>The dynamic variable does not meet the requirements of the <a href="http://en.cppreference.com/w/cpp/concept/AllocatorAwareContainer">AllocatorAwareContainer</a> concept.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_type_checks"><a class="anchor" href="#_type_checks"></a>Type Checks</h3>
+<div class="paragraph">
+<p>The stored type of a variable can be queried in different ways.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Query by type is done with the <code>is&lt;T&gt;()</code> and <code>same&lt;T&gt;()</code> member functions. These are primarily intended for checking pre-conditions. Query functions with a template parameter was chosen over explicit query functions, such as <code>is_boolean()</code>, because the former can be used in generic code.</p>
+</li>
+<li>
+<p>Query by enumeration is done with the <code>code()</code> and <code>symbol()</code> member functions. These are intended for dispatching based on the stored type. The use of enumeration enables the compiler to warn against missing cases in switch statements.</p>
+</li>
+<li>
+<p>Visitation via the <code>dynamic::visit</code> algorithm.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_construction"><a class="anchor" href="#_construction"></a>Construction</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_comparison"><a class="anchor" href="#_comparison"></a>Comparison</h3>
+<div class="paragraph">
+<p>Comparison takes both the type and value into account. Some types, such as arithmetic types, are directly comparable, and they will be compared using the normal C++ rules. An exemption is comparison between signed and unsigned integers, which does not trigger compiler warnings nor raises run-time errors.</p>
+</div>
+<div class="paragraph">
+<p>When supported types are not value-comparable, a type ordering is imposed. Nullable types always compares less than other types. Apart from the nullable type, the ordering between the remaining type has been chosen arbitrarily. The reason for type ordering is to ensure that any combination of values can be compared. This is needed because <code>dynamic::variable::map_type</code> uses <code>dynamic::variable</code> as the key, so the less-than operator must work. It is also useful for algorithms with predicates that use relational comparison.</p>
+</div>
+<div class="paragraph">
+<p>Strings of different types are not value-comparable, which is in accordance with normal C++ rules,<sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup> so they will be compared using their types. The ordering between string types is arbitrary.</p>
+</div>
+<div class="paragraph">
+<p>Comparison against unsupported types results in compiler errors.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_traversal"><a class="anchor" href="#_traversal"></a>Traversal</h3>
+<div class="paragraph">
+<p>The dynamic variable supports container types, so it must be possible to traverse the content of these containers. There are two ways to traverse a dynamic variable.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Adherence to the Container concept means that the dynamic variable can traversed by iterators.</p>
+</li>
+<li>
+<p>Visitation can be done using the <code>dynamic::visit</code> algorithm. The array and associative arrays can be iterated over for recursive visitation.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Special attention is needed for iterator dereferencing, because it returns a reference to the embedded value. This return type must be the same for any value. The iterators use <code>dynamic::variable</code> as the return type. The associative array stands out because the key-value pair is stored as an <code>std::pair</code>, not as a <code>dynamic::variable</code>. The solution is that dereference returns a reference to the value, not the entire key-value pair. The iterator is therefore a value iterator.</p>
+</div>
+<div class="paragraph">
+<p>A consequence of using value iterators is that when sorting an associated array, only the values are sorted. In other words, values are moved between keys. For example, sorting <code>{ {"alpha", 20}, {"bravo", 10} }</code> becomes <code>{ {"alpha", 10}, {"bravo", 20} }</code>. This may make more sense if we regard an array as an associative array with the index as the key. For example, the array <code>{20, 10}</code> can be regarded as <code>{ {0, 20}, {1, 10} }</code>. Sorting this arrays results in <code>{ {0, 10}, {1, 20} }</code> which corresponds to <code>{10, 20}</code>.</p>
+</div>
+<div class="paragraph">
+<p>The iterator has explicit methods to obtain both the key and the value by reference.</p>
+</div>
+<div class="paragraph">
+<p>A key iterator also exists. It works like the value iterator but the dereferencing operator returns the key rather than the value. Only the associative array has keys, so the key of other supported types is their index. The key iterator is const, because the key cannot be changed. Changing the key can only be done by erasing the old key and inserting the new key.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_customization"><a class="anchor" href="#_customization"></a>Customization</h3>
+<div class="paragraph">
+<p>The only customization point in the dynamic variable is allocator support.</p>
+</div>
+<div class="paragraph">
+<p>A custom allocator can be specified as a template parameter for the <code>dynamic::basic_variable&lt;Allocator&gt;</code> class. This allocator is passed to all string types, as well as <code>array_type</code> and <code>map_type</code>.</p>
+</div>
+<div class="paragraph">
+<p><code>dynamic::variable</code> is a convenience alias for <code>dynamic::basic_variable&lt;std::allocator&lt;char&gt;&gt;</code>.</p>
+</div>
+</div>
+<div id="footnotes">
+<hr>
+<div class="footnote" id="_footnotedef_1">
+<a href="#_footnoteref_1">1</a>. Except <code>signed char</code> and <code>unsigned char</code> which are considered small integers.
+</div>
+<div class="footnote" id="_footnotedef_2">
+<a href="#_footnoteref_2">2</a>. Despite attempts to make different string types directly comparable, such as <a href="http://www.open-std.org/Jtc1/sc22/wg21/docs/papers/2012/n3398.html">N3398</a>.
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<script id="site-script" src="../../../_/js/site.js" data-ui-root-path="../../../_"></script>
+<script async src="../../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>
